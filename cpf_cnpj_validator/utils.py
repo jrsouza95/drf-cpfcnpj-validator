@@ -1,29 +1,32 @@
-divider = 11
+# -*- coding: utf-8 -*-
 
 
-def firstDigit(number, weighs):
-    sum = 0
+class Utils:
+    def __init__(self):
+        self.divider = 11
 
-    for i in range(len(weighs)):
-        sum += int(number[i]) * weighs[i]
+    def get_first_digit(self, number, weight):
+        sum = 0
 
-    rest_division = sum % divider
+        for i in range(len(weight)):
+            sum += int(number[i]) * weight[i]
 
-    if rest_division < 2:
-        return '0'
+        rest_division = sum % self.divider
 
-    return str(11 - rest_division)
+        if rest_division < 2:
+            return '0'
 
+        return str(11 - rest_division)
 
-def secondDigit(updated_number, weighs):
-    sum = 0
+    def get_second_digit(self, updated_number, weight):
+        sum = 0
 
-    for i in range(len(weighs)):
-        sum += + int(updated_number[i]) * weighs[i]
+        for i in range(len(weight)):
+            sum += + int(updated_number[i]) * weight[i]
 
-    rest_division = sum % divider
+        rest_division = sum % self.divider
 
-    if rest_division < 2:
-        return '0'
+        if rest_division < 2:
+            return '0'
 
-    return str(11 - rest_division)
+        return str(11 - rest_division)

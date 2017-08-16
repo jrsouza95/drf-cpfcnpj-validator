@@ -106,3 +106,9 @@ ENV/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
+#Pycharm
+.idea/*
+.idea/*.xml
+.idea/*.iml
