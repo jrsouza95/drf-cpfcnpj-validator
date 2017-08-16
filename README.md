@@ -2,10 +2,12 @@
 A small and quick validation plugin for CPF or CNPJ in django rest framework!
 
 
-#### Usage:
+#### Examples:
 
+
+#####CPF
+``` python
 from rest_framework import serializers 
-
 from drf_cpfcnpj_validator.validadors import cpf_validator, cnpj_validator
 
 
