@@ -16,6 +16,9 @@ class PersonSerializer(serializers.ModelSerializer):
 
 ```
 
+
+
+
 > CNPJ
 ``` python
 from rest_framework import serializers 
