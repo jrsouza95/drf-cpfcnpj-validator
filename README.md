@@ -3,7 +3,7 @@
 
 #### Install:
 
-``` bash
+``` shell
 sudo pip install drf_cpf_cnpj_validator
 
 ```
