@@ -22,3 +22,11 @@ class CompanySerializer(serializers.ModelSerializer):
 #### Tranlations:
 
 This plugin translates messages from your LANGUAGE_CODE parameter, located in settings.py.  
+
+
+**Translations available:**  
+
+
+* en-US  
+* pt-BR  
+* es-ES  
