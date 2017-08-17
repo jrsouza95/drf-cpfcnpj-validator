@@ -1,5 +1,5 @@
 # DJANGO REST CNPJ OR CPF VALIDATOR
-> A small and quick validation plugin for CPF or CNPJ in django rest framework!
+> A small and quick validation plugin for CPF or CNPJ in django rest framework!  
 
 
 #### Examples:
@@ -17,3 +17,8 @@ class CompanySerializer(serializers.ModelSerializer):
     cnpj = serializers.Charfield(validators=[cnpj_validator])
 
 ```
+
+
+#### Tranlations:
+
+This plugin translates messages from your LANGUAGE_CODE parameter, located in settings.py.  
