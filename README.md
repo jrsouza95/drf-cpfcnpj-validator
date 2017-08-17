@@ -27,6 +27,6 @@ This plugin translates messages from your LANGUAGE_CODE parameter, located in se
 * **Translations available:**  
 
 
-+ en-US  
-+ pt-BR  
-+ es-ES  
+  - en-US  
+  - pt-BR  
+  - es-ES  
