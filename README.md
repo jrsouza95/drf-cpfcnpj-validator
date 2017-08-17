@@ -6,7 +6,7 @@
 
 ``` python
 from rest_framework import serializers 
-from drf_cpfcnpj_validator.validadors import cpf_validator, cnpj_validator
+from drf-cpf-cnpj-validator.validadors import cpf_validator, cnpj_validator
 
 
 class PersonSerializer(serializers.ModelSerializer):
