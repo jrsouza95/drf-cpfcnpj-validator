@@ -1,12 +1,19 @@
 # DJANGO REST CNPJ OR CPF VALIDATOR
 > A small and quick validation plugin for CPF or CNPJ in django rest framework!  
 
+#### Install:
+
+``` bash
+sudo pip install drf_cpf_cnpj_validator
+
+```
+
 
 #### Examples:
 
 ``` python
 from rest_framework import serializers 
-from drf-cpf-cnpj-validator.validadors import cpf_validator, cnpj_validator
+from drf_cpf_cnpj_validator.validadors import cpf_validator, cnpj_validator
 
 
 class PersonSerializer(serializers.ModelSerializer):
